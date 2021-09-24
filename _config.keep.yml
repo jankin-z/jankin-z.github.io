@@ -6,7 +6,7 @@ style:
   # Theme primary color
   primary_color: "#0066cc"
   avatar: /images/head.jpg
-  favicon: /images/Carrot Bonus.ico
+  favicon: /images/CarrotBonus.ico
 
   # Article image align position, value: left | center
   article_img_align: center
