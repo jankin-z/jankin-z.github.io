@@ -1,0 +1,48 @@
+base_info:
+  title: jankin's blog
+  author: jankin
+  url: https://keep.xpoet.cn/
+style:
+  # Theme primary color
+  primary_color: "#0066cc"
+  avatar: /images/Cache_-2fb714e3c00e5844..jpg
+  favicon: /images/CarrotBonus.ico
+
+  # Article image align position, value: left | center
+  article_img_align: center
+
+  # # Left side width
+  # left_side_width: 260px
+
+  # # Content area max width
+  # content_max_width: 920px
+
+  # # Mouse hover
+  # hover:
+  #   shadow: false # shadow effect when the mouse hover
+  #   scale: false # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: true
+    background_img: /images/bg.svg # You can use local image or image external link
+    description:  writing and loving.
+
+  # Scroll style settings
+  scroll:
+    progress_bar:
+      enable: true
+    percent:
+      enable: false
+
+  social_contact:
+  enable: false
+  links:
+    github:               # your GitHub URL
+    weixin:               # your WeChat QR-Code URL
+    qq:                   # your QQ QR-Code URL
+    weibo:                # your WeiBo URL
+    zhihu:                # your ZhiHu URL
+    twitter:              # your twitter URL
+    facebook:             # your facebook URL
+    email:                820520972@qq.com
