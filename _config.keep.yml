@@ -1,7 +1,7 @@
 base_info:
   title: jankin's blog
   author: jankin
-  url: https://keep.xpoet.cn/
+  url: https://jankin-z.github.io
 style:
   # Theme primary color
   primary_color: "#0066cc"
@@ -18,9 +18,9 @@ style:
   # content_max_width: 920px
 
   # # Mouse hover
-  # hover:
-  #   shadow: false # shadow effect when the mouse hover
-  #   scale: false # scale effect when the mouse hover
+  hover:
+    shadow: true # shadow effect when the mouse hover
+    scale: true # scale effect when the mouse hover
 
   # First screen
   first_screen:
@@ -35,7 +35,7 @@ style:
     percent:
       enable: false
 
-  social_contact:
+social_contact:
   enable: true
   links:
     github:               # your GitHub URL
@@ -46,3 +46,61 @@ style:
     twitter:              # your twitter URL
     facebook:             # your facebook URL
     email:                jankin_z@139.com
+menu:
+  Home: /
+  Archives: /archives
+  # Categories: /categories
+  # Tags: /tags
+  # Links: /links
+  About: /about
+  
+home_article:
+  category:
+    enable: false     # show category in home page article block
+    limit: 3          # max number of categories shown in home page article block
+  tag:
+    enable: false     # show tags in home page article block
+    limit: 5          # max number of tags shown in home page article block
+code_copy:
+  enable: true
+  style: default        # values: default | mac
+
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: false
+    wordcount: false  # word count, one article
+    min2read: false   # time to read, one article
+
+  # Author label
+  author_label:
+    enable: true
+    auto: true  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # label array item can be one or more
+    custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
+
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: false
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: false
+
+  # If true, open TOC every time when you enter the article page
+  init_open: false
+
+copyright_info:
+  enable: true
+
+lazyload:
+  enable: false  
+
+cdn:
+  enable: true
+
+pjax:
+  enable: true 
