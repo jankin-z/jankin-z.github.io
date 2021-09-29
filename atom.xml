@@ -6,7 +6,7 @@
   <link href="http://jankin.github.io/atom.xml" rel="self"/>
   
   <link href="http://jankin.github.io/"/>
-  <updated>2021-09-29T00:34:55.036Z</updated>
+  <updated>2021-09-29T08:05:11.389Z</updated>
   <id>http://jankin.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="http://jankin.github.io/2021/09/29/hello-world/"/>
     <id>http://jankin.github.io/2021/09/29/hello-world/</id>
-    <published>2021-09-29T00:34:55.036Z</published>
-    <updated>2021-09-29T00:34:55.036Z</updated>
+    <published>2021-09-29T08:05:11.389Z</published>
+    <updated>2021-09-29T08:05:11.389Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
     
@@ -41,7 +41,7 @@
     <link href="http://jankin.github.io/2021/09/28/sort/"/>
     <id>http://jankin.github.io/2021/09/28/sort/</id>
     <published>2021-09-28T14:57:26.000Z</published>
-    <updated>2021-09-29T00:34:55.036Z</updated>
+    <updated>2021-09-29T08:05:11.389Z</updated>
     
     
     
@@ -54,7 +54,7 @@
     <link href="http://jankin.github.io/2021/09/26/bubble%20sort/"/>
     <id>http://jankin.github.io/2021/09/26/bubble%20sort/</id>
     <published>2021-09-26T11:21:27.000Z</published>
-    <updated>2021-09-29T00:34:55.036Z</updated>
+    <updated>2021-09-29T08:05:11.389Z</updated>
     
     <content type="html"><![CDATA[<h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><strong>冒泡排序</strong>算是计算机中最简单的一种排序了。其基本的思想就是交换，同为交换思想的<strong>快速排序</strong>是他的大哥。😂（废话不多说了，下面开始）</p><h2 id="算法步骤"><a href="#算法步骤" class="headerlink" title="算法步骤"></a>算法步骤</h2><blockquote><p>下面假设对数组进行从小到大的排序</p></blockquote><h3 id="最小操作"><a href="#最小操作" class="headerlink" title="最小操作"></a>最小操作</h3><p>相邻两个元素进行比较。如果左边的元素大于右边的元素，则将左边的元素与右边的元素进行交换</p><h3 id=""><a href="#" class="headerlink" title=""></a></h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//bubble sort</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">BS</span><span class="params">(<span class="keyword">int</span> a[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">display</span><span class="params">(<span class="keyword">int</span> a[])</span></span>;</span><br><span class="line">    <span class="keyword">int</span> i, j;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;使用的是冒泡排序法：\n&quot;</span>);</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span>; i &lt; LEN; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (j = <span class="number">1</span>; j &lt; LEN - i; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (a[j] &gt; a[j + <span class="number">1</span>])</span><br><span class="line">            &#123;</span><br><span class="line">                a[<span class="number">0</span>] = a[j + <span class="number">1</span>];</span><br><span class="line">                a[j + <span class="number">1</span>] = a[j];</span><br><span class="line">                a[j] = a[<span class="number">0</span>];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -78,7 +78,7 @@
     <link href="http://jankin.github.io/2021/09/24/Git-fatal/"/>
     <id>http://jankin.github.io/2021/09/24/Git-fatal/</id>
     <published>2021-09-24T04:06:31.000Z</published>
-    <updated>2021-09-29T00:34:55.036Z</updated>
+    <updated>2021-09-29T08:05:11.389Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure><p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p><p>参考网上解决办法：解除ssl验证后，再次git即可</p><p>可以使用如上命令。</p>]]></content>
     
