@@ -2,6 +2,8 @@
 title: Git fatal
 date: 2021-09-24 12:06:31
 tags:
+categories:
+	- git
 ---
 
 ```shell
