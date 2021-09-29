@@ -96,6 +96,20 @@ toc:
 copyright_info:
   enable: true
 
+local_search:
+  enable: true
+  preload: false     # Preload the search data when the page loads
+
+comment:
+  enable: true
+  use: valine  # values: valine | gitalk | twikoo
+
+  # Valine
+  # See: https://github.com/xCss/Valine
+  valine:
+    appid:                kFn6rnRydDXsB0UkjbGHrWmM-gzGzoHsz
+    appkey:               vGKqMvqppg6NjPEmmMtUoq2R
+    placeholder:          😜 尽情吐槽吧~
 rss:
   enable: true
 

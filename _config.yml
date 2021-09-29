@@ -102,7 +102,13 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
-
+# Search
+## See: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
