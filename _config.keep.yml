@@ -107,8 +107,8 @@ comment:
   # Valine
   # See: https://github.com/xCss/Valine
   valine:
-    appid:                kFn6rnRydDXsB0UkjbGHrWmM-gzGzoHsz
-    appkey:               vGKqMvqppg6NjPEmmMtUoq2R
+    appid:                GTJz2k3NpLfxpGuhWMeOfC9p-gzGzoHsz
+    appkey:               WOSdCDRBT6oNQJigsLfD2AjG
     placeholder:          😜 尽情吐槽吧~
 rss:
   enable: false
